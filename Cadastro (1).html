@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOCK/CADASTRO CLIENTE</title>
+    <link rel="icon" href="Imagens\logo-min.png">
+    <link rel="stylesheet" href="CSS\estilloso.css">
+    <link rel="stylesheet" href="CSS\style.css">
+    <link rel="stylesheet" href="CSS\cadastro.css">
+</head>
+<body>
+<section id="box1">
+<h1><I>SEJA BEM VINDO A ÁREA DE CADASTRO</I></h1>
+<P>abaixo por favor insira os seus dados para que a shock possa atende-lo(a) da melhor forma</P>
+</section>
+<!--
+primeira section:
+nesta parte coloquei a tag <h1> e <i> para utiliza-la como titulo de saudação para a area de cadastro do formulario e apos isso utilizei a tag <p> para solicitar ao usuario inserir corretamente os dados
+-->
+<br>
+<section>
+<p><b>Nome:</b></p>
+<input type="text" id="login" placeholder="nome" name="nmlogin">
+<br>
+<p><b>Data de Nascimento:</b></p>
+<input type="date" id="date" placeholder="data de nascimento" name="nmdate">
+<br>
+<p><b>CPF:</b></p>
+<input type="text" id="text" placeholder="CPF" name="nmCPF">
+<br>
+<p><b>CEP:</b></p>
+<input type="text" id="text" placeholder="CEP" name="nmCEP">
+<br>
+<p><b>Endereço:</b></p>
+<input type="text" id="adress" placeholder="endereço" name="nmadress">
+<br>
+<p><b>Email:</b></p>
+<input type="text" id="email" placeholder="@ciclano098*email.com" name="nmemail">
+<br>
+<p><b>Senha:</b></p>
+<input type="password" id="password" placeholder="senha" name="nmpassword">
+<br>
+<p><b>Sexo:</b></p>
+<input type="text" placeholder="seu sexo" list="faixa">
+<datalist id="faixa">
+  <option value="">sexo</option>
+  <option value="Masculino">masculino</option>
+  <option value="Feminino">Feminino</option>
+  <option value="outro">outro</option>
+</datalist>
+<p><b>telefone</b></p>
+<input type="tel" id="phone number" placeholder="+55(00)00000-0000" name="nmphone">
+<br><br>
+<p><i>clique abaixo para finalizar o seu cadastro:</i></p>
+<br>
+<a href="Index.html"><button type="button" class="btn btn-success" style="background-color: green;  color:white">FINALIZAR</button></a>
+<br><br>
+<marquee behaviour="scroll" scrollamount="5" direction="right">confira se seus dados estão certos!</marquee>  
+</section>
+<img src="Imagens\iconeraio.png" height="700" width="700" style="right: 60px;">
+
+<address><!-- Creditos de desenvolvimento da página -->
+  Página desenvolvido por Marcus Paulo Silva de Oliveira.
+</address> 
+</body>
+</html>
+<!--
+segunda section:
+apos isso para o formulario de cadastro eu utilizei as tags <p> e <b> para realçar os titulos de cada quadrado em que o usuario iria por os seus dados e as tags <input type>,<name>,<id> e <placeholder> para fazer os campos do formulario.apos isso utilizei a tag<datalist> como opção para o usuario decidir o seu genero e no final utlizei as tags <a>,<button> e <i> para redirecionar o cliente para a pagina principal, usei a tag <marquee> para alertar o usuario de registrar os seus dados corretamente e a tag<br> para quebrar linha. 
+-->

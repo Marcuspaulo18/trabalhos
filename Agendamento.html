@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agendamentos</title>
+    <link rel="icon" href="Imagens\logo-min.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/agendamento.css">
+</head>
+
+<body>
+
+    <section>
+        <center>
+            <H1>Agendamento</H1><!--título-->
+        </center>
+
+        <br><br><br><br>
+
+        <h2>Preencha aqui:</h2> <!--subtítulo-->
+
+        <br><br>
+
+        <form action="pagamento (1).html"> <!--tag que abre um formulário-->
+            <label for="Nome_Completo">Nome Completo:</label>
+            <!--nomeação do elemento apenas, sem funcionalidade, mas para deixar uma sintaxe predecessora ao respectivo input-->
+            <input type="text" name="nomecompleto" id="nomecompleto"
+                placeholder="Nome Completo"><!--tag para campo de preenchimento-->
+
+            <br><br>
+
+            <label for="Email" style="margin: 43px;">Email:</label><!--nomeação do elemento-->
+            <input type="text" name="email" id="email"
+                placeholder="shockserviços@gmail.co"><!--tag para campo de preenchimento-->
+
+            <br><br>
+
+            <label for="problema" style="margin: 28px;">Problema:</label>
+            <select><!--tag necessária para preenchimento estilo janela-->
+                <option value="fiação">Fiação</option>
+                <!--tag para selecionar o que aparecerá dentro das opções de janela-->
+                <option value="disjuntor">Disjuntor</option>
+                <!--tag para selecionar o que aparecerá dentro das opções de janela-->
+                <option value="eletrodoméstico">Eletrodoméstico</option>
+                <!--tag para selecionar o que aparecerá dentro das opções de janela-->
+            </select>
+
+            <br><br>
+
+            <label for="outro" style="margin: 43px;">Outro:</label> <!--nomeação do elemento-->
+            <input type="text" name="outro" id="outro" placeholder="outro"><!--tag para campo de preenchimento-->
+
+
+            <br><br>
+
+            <label for="dia" style="margin: 53px;">Dia:</label><!--nomeação do elemento-->
+            <input type="date" id="data" name="data"><!--tag para campo de seleção de data-->
+
+            <br><br>
+
+            <label for="endereço" style="margin: 32px;">Endereço</label>
+            <input type="text" name="endereço" id="endereço" placeholder="endereço">
+
+            <br><br>
+
+            <label for="slider">Grau de urgência</label><!--nomeação do elemento-->
+            1<input type="range" name="graudeurgência" id="graudeurgência" step="50" value="50">3
+            <!--tag usada para fazer o cursor-->
+
+            <br><br>
+
+            <button style="font-weight: 500;">ENVIAR</button> <!--tag para botão-->
+        </form>
+
+
+        <img src="Imagens/boneco.png" height="700" width="700" style="right: 60px;">
+        <!--tag de abertura de imagem, juntamente com suas configurações-->
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <address><!-- Creditos de desenvolvimento da página -->
+        Página desenvolvido por William Araújo Gonçalves da Silva.
+    </address>
+</body>
+
+</html>

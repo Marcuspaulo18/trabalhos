@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOCK/CADASTRO PROFISSIONAL</title>
+  <link rel="icon" href="Imagens\logo-min.png">
+  <link rel="stylesheet" href="CSS\style.css">
+  <link rel="stylesheet" href="CSS\cadastro-do-profissional.css">
+</head>
+<>
+  <section>
+    <h1 style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><I>SEJA BEM
+        VINDO A ÁREA DE CADASTRO PROFISSIONAL</I></h1>
+    <br>
+    <P style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">abaixo por favor
+      insira os seus dados para que a shock possa orienta-lo(a) da melhor forma</P>
+  </section>
+  <!--
+primeira section:
+nesta parte coloquei a tag <h1> e <i> para utiliza-la como titulo de saudação para a area de cadastro do formulario e apos isso utilizei a tag <p> para solicitar ao usuario inserir corretamente os dados
+-->
+  <br>
+  <section>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Nome:</b></p>
+    <input type="text" id="login" placeholder="nome" name="nmlogin">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Data de
+        Nascimento:</b></p>
+    <input type="date" id="date" placeholder="data de nascimento" name="nmdate">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>CPF:</b></p>
+    <input type="text" id="text" placeholder="CPF" name="nmCPF">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>CEP:</b></p>
+    <input type="text" id="text" placeholder="CEP" name="nmCEP">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Endereço:</b>
+    </p>
+    <input type="text" id="adress" placeholder="endereço" name="nmadress">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Email:</b></p>
+    <input type="text" id="email" placeholder="@ciclano098*email.com" name="nmemail">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Senha:</b></p>
+    <input type="password" id="password" placeholder="senha" name="nmpassword">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Sexo:</b></p>
+    <input type="text" placeholder="seu sexo" list="faixa">
+    <datalist id="faixa">
+      <option value="">sexo</option>
+      <option value="Masculino">masculino</option>
+      <option value="Feminino">Feminino</option>
+      <option value="outro">outro</option>
+    </datalist>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>telefone</b>
+    </p>
+    <input type="tel" id="phone number" placeholder="+55(00)00000-0000" name="nmphone">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>nivel:</b></p>
+    <input type="text" placeholder="" list="faixa">
+    <datalist id="faixa">
+      <option value="">nivel</option>
+      <option value="Masculino">superior</option>
+      <option value="Feminino">tecnico</option>
+      <option value="outro">sem formação</option>
+    </datalist>
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>formação:</b>
+    </p>
+    <input type="text" id="login" placeholder="formação" name="nmtext">
+    <br><br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>nome da
+        instituição que se formou:</b></p>
+    <input type="tel" id="text" placeholder="instituição" name="nmtext">
+    <br><br>
+    <div style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><i>caso não
+        tenha certificado de nivel tecnico,superior ou medio digite "nenhuma"</i></div>
+    <br>
+    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><i>clique abaixo
+        para finalizar o seu cadastro:</i></p>
+    <br>
+    <a href="Index.html"><button type="button" class="btn btn-success"
+        style="background-color: green; color:white">FINALIZAR</button></a>
+    <br><br>
+    <marquee behaviour="scroll" scrollamount="5" direction="right"
+      style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">confira se seus
+      dados estão certos!</marquee>
+  </section>
+  <img src="Imagens/iconeraio.png" height="700" width="700" style="right: 60px;">
+
+  <address><!-- Creditos de desenvolvimento da página -->
+    Página desenvolvido por Marcus Paulo Silva de Oliveira.
+  </address>
+  </body>
+
+</html>
+<!--
+segunda section:
+apos isso para o formulario de cadastro eu utilizei as tags<p> e <b> para realçar os titulos de cada quadrado em que o usuario iria por os seus dados e as tags <input type>,<name>,<id> e <placeholder> para fazer os campos do formulario.apos isso utilizei a tag<datalist> como opção para o usuario decidir o seu genero e nivel superior e no final utlizei as tags <a>,<button> e <i> para redirecionar o profissional para a pagina principal,usei a tag <marquee>,<div> e <i> para alertar o usuario de registrar os seus dados corretamente e atag <br> ppara quebrar linha. 
+-->
